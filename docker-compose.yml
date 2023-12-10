@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+ aimachine:
+  build:
+   context: ./
+  container_name: 'aimachine'
+  volumes:
+   - ./:/usr/src/app
